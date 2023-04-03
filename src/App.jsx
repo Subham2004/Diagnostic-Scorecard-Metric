@@ -39,13 +39,13 @@ function App() {
       <main>
         <div className="grid grid-cols-2 gap-[15rem] px-3 mb-10">
           <div className="grid gap-10" style={{gridTemplateColumns:"26rem 26rem", gridTemplateRows: "16rem 16rem"}}>
-            <Table heading={"Innovation and Intelectual Property"} options={["Originality- How unique is the technology", "IP Protection- Does the technology have strong IP position", "Global Patentability- What's the likelihood of full global patent application:"]} color={'bg-yellow-400'} />
+            <Table heading={"Innovation and Intelectual Property"} options={["Originality- How unique is the technology", "IP Protection- Does the technology have strong IP position", "Global Patentability- What's the likelihood of full global patent application"]} color={'bg-yellow-400'} />
 
             <Table heading={"Design. Development & Technical"} options={["Concept - HOW well developed is the concept", "Development - How progressed is the R&D phase", "Production Feasibility - Is there a clear understanding of scale up roll out costs"]} color={'bg-green-400'} />
 
             <Table className="mt-[45px]" heading={"Business, Commercial & Finance"} options={["Financial - How well developed is the financial models", "Business - Is there a clear sustainable business model", "Money - What's the current fiscal health of the venture."]} color={'bg-blue-600'} />
 
-            <Table heading={"Product, Market & Customer"} options={["Product - How well developed is the product Offer", "Market - Is there clearly defined market and market opportunity is well defined", "Customer - IS the target customer defined and needs clearly understood"]} color={'bg-violet-600'} />
+            <Table heading={"Product, Market & Customer"} options={["Product - How well developed is the product Offer", "Market - Is there clearly defined market and market opportunity is well defined", "Customer - Is the target customer defined and needs clearly understood"]} color={'bg-violet-600'} />
           </div>
           <div className='flex flex-col justify-center items-center w-[80%] relative top-[-2rem] left-[5rem]'>
             <div className={` relative left-[-12rem] top-[6rem] -rotate-45 font-semibold text-white p-1 bg-violet-600 border-2 border-black`}>
